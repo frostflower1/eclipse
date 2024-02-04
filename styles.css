@@ -13,7 +13,7 @@ body {
   background-position-x: center;
   background-position-y: center;
   width: auto;
-  height: auto;
+  height: 100%;
 }
 
 ul#countdown {
