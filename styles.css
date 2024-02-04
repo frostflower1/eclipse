@@ -6,15 +6,21 @@ html {
   box-sizing: inherit;
 }
 
-html,
-body {
-  background-image: url(bg.jpg);
-  background-size: cover;
-  background-position-x: center;
-  background-position-y: center;
-  width: auto;
+html, body {
+  margin: 0;
+  padding: 0;
   height: 100%;
 }
+
+body {
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden; 
+}
+
+
 
 ul#countdown {
   position: relative;
